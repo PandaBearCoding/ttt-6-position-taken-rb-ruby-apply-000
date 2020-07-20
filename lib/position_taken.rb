@@ -2,6 +2,9 @@
   # if not, do something else 
 
 def position_taken?(board,index)
+  if board[index] == " "
+    return false
+  end
 end
 
 
